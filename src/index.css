@@ -2,6 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+/* custom.css */
+/* custom.css */
+.cursive-text {
+  background: linear-gradient(45deg, #a66d02, #4A90E2, #25dbe4, #bc7bf9); /* Adjust colors as needed */
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: cursive;
+  animation: gradientAnimation 1s ease infinite; /* Adjust animation duration as needed */
+}
+
+.nav-text-gradient {
+  background: linear-gradient(45deg, #02c5f5c9, #8e1ff6, #0fb5fc, #b594f5); /* Adjust colors as needed */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradientAnimation 1s ease infinite; /* Adjust animation duration as needed */
+}
+
+
+.text-gradient {
+    background: linear-gradient(45deg, #df9d23, #4A90E2, #25dbe4, #bc7bf9); /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientAnimation 1s ease infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
 @layer base{
     li{
         @apply p-4
