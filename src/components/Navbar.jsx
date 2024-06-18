@@ -24,7 +24,7 @@ const Navbar = () => {
                         </NavItem>
                     ))}
                     <li>
-                        <button className="skeuomorphic-button-blue px-8 py-3 text-white rounded-md text-center">
+                        <button className="skeuomorphic-button-blue px-8 py-3 text-white rounded-md">
                             <Link to="contact" smooth={true} offset={-200} duration={500}>Get In Touch</Link>
                         </button>
                     </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
                         </NavItem>
                     ))}
                     <li>
-                        <button className="skeuomorphic-button-blue block w-full px-6 py-3 text-gray-900 rounded-md mt-1 text-center">
+                        <button className="block w-full px-6 py-3 text-gray-900 rounded-md mt-1 skeuomorphic-button-blue text-center">
                             <Link to="contact" smooth={true} offset={-200} duration={500}>Get In Touch</Link>
                         </button>
                     </li>
