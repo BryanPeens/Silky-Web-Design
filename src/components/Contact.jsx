@@ -117,7 +117,7 @@ const InTouch = () => {
               Trusted by businesses across globe
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 animate-pulse">
             <div className="bg-white rounded-lg shadow-xl py-6 px-8 sm:py-3 text-center skeuomorphic-card-blue">
               <p className="text-6xl font-bold">100%</p>
               <p className="text-white mt-2">Completion</p>

@@ -98,7 +98,7 @@ const Work = () => {
   ];
 
   return (
-    <div id="work" className="w-full min-h-screen py-20 md:py-40 bg-gray-100">
+    <div id="work" className="w-full min-h-screen py-20 md:py-40">
       <div className="max-w-[1000px] mx-auto p-4 cursor-pointer">
         <div className="pb-4">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold inline border-b-4 border-red-800 text-center text-gradient">

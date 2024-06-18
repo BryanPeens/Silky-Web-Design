@@ -35,7 +35,7 @@ const Navbar = () => {
                 {/* Mobile Navigation Toggle */}
                 <div className="md:hidden">
                     <button onClick={toggleNav} aria-label="Toggle Navigation">
-                        {navOpen ? <XMarkIcon className="w-6 h-6 text-gray-900" /> : <Bars3Icon className="w-6 h-6 text-gray-900" />}
+                        {navOpen ? <XMarkIcon className="w-6 h-6 text-gray-900 bg-white" /> : <Bars3Icon className="w-6 h-6 text-gray-900" />}
                     </button>
                 </div>
             </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
 };
 
 const NavItem = ({ onClick, to, mobile, children }) => (
-    <li className={`hover:animate-pulse hover:text-zinc-400 font-bold nav-text-gradient py-2 ${mobile ? 'border-b border-gray-200' : ''} ${mobile ? 'text-gray-900' : 'text-gray-700'}`}>
+    <li className={`bg-light hover:animate-pulse hover:text-zinc-400 font-bold nav-text-gradient py-2 ${mobile ? 'border-b border-gray-200' : ''} ${mobile ? 'text-gray-900' : 'text-gray-700'}`}>
         <Link onClick={onClick} to={to} smooth={true} duration={500} className="block px-6 w-full text-center">{children}</Link>
     </li>
 );

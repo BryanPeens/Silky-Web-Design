@@ -5,14 +5,17 @@ import {
   ServerStackIcon,
 } from "@heroicons/react/24/outline";
 import { CpuChipIcon } from "@heroicons/react/24/solid";
-
 import supportImage from "../assets/support.jpeg";
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
-    <div id="about" className="relative min-h-screen pt-28 rounded-tl-[400px]">
+    <div
+      id="about"
+      className="relative min-h-screen pt-28 rounded-br-[130px] sm:rounded-br-[400px] overflow-hidden"
+    >
       {/* Background Image with Frosted Glass Effect */}
-      <div className="absolute inset-0 bg-gray-900/90 backdrop-blur-lg bg-opacity-50">
+      <div className="absolute inset-0 bg-gray-900/90 backdrop-blur-lg">
         <img
           className="object-cover w-full h-full"
           src={supportImage}
@@ -21,10 +24,10 @@ const About = () => {
       </div>
 
       {/* Content Container */}
-      <div className="max-w-7xl mx-auto text-white relative px-4 py-24 h-full flex flex-col justify-center">
+      <div className="relative max-w-7xl mx-auto text-white px-4 py-24 flex flex-col justify-center">
         {/* Section Heading */}
-        <div className="mb-12 text-center text-gray-900 text-gradient">
-          <h3 className="text-5xl font-bold mt-4 leading-tight">
+        <div className="mb-12 text-center text-gray-900">
+          <h3 className="text-5xl font-bold mt-4 leading-tight text-gradient">
             Finding the right team
           </h3>
           <p className="mt-4 text-xl leading-relaxed font-semibold">
@@ -36,7 +39,7 @@ const About = () => {
         {/* Service Cards */}
         <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
           {/* Web Design */}
-          <div className="bg-white bg-opacity-80 rounded-xl shadow-xl overflow-hidden">
+          <div className="bg-white bg-opacity-80 rounded-xl shadow-xl overflow-hidden transition-transform transform hover:scale-105">
             <div className="p-8">
               <div className="bg-indigo-600 text-white rounded-lg p-4 w-16 h-16 flex items-center justify-center">
                 <PuzzlePieceIcon className="w-8 h-8" />
@@ -50,14 +53,16 @@ const About = () => {
               </p>
             </div>
             <div className="bg-gray-200 bg-opacity-50 px-8 py-4">
-              <p className="flex items-center text-indigo-600 cursor-pointer">
-                Contact Us <ArrowSmallRightIcon className="w-4 h-4 ml-2" />
-              </p>
+              <Link to="contact">
+                <p className="flex items-center text-indigo-600 cursor-pointer">
+                  Contact Us <ArrowSmallRightIcon className="w-4 h-4 ml-2" />
+                </p>
+              </Link>
             </div>
           </div>
 
           {/* Hosting */}
-          <div className="bg-white bg-opacity-80 rounded-xl shadow-xl overflow-hidden">
+          <div className="bg-white bg-opacity-80 rounded-xl shadow-xl overflow-hidden transition-transform transform hover:scale-105">
             <div className="p-8">
               <div className="bg-indigo-600 text-white rounded-lg p-4 w-16 h-16 flex items-center justify-center">
                 <ServerStackIcon className="w-8 h-8" />
@@ -69,14 +74,16 @@ const About = () => {
               </p>
             </div>
             <div className="bg-gray-200 bg-opacity-50 px-8 py-4">
-              <p className="flex items-center text-indigo-600 cursor-pointer">
-                Contact Us <ArrowSmallRightIcon className="w-4 h-4 ml-2" />
-              </p>
+              <Link to="platform">
+                <p className="flex items-center text-indigo-600 cursor-pointer">
+                  Our Services <ArrowSmallRightIcon className="w-4 h-4 ml-2" />
+                </p>
+              </Link>
             </div>
           </div>
 
           {/* Application Development */}
-          <div className="bg-white bg-opacity-80 rounded-xl shadow-xl overflow-hidden">
+          <div className="bg-white bg-opacity-80 rounded-xl shadow-xl overflow-hidden transition-transform transform hover:scale-105">
             <div className="p-8">
               <div className="bg-indigo-600 text-white rounded-lg p-4 w-16 h-16 flex items-center justify-center">
                 <CpuChipIcon className="w-8 h-8" />
@@ -90,9 +97,12 @@ const About = () => {
               </p>
             </div>
             <div className="bg-gray-200 bg-opacity-50 px-8 py-4">
-              <p className="flex items-center text-indigo-600 cursor-pointer">
-                Contact Us <ArrowSmallRightIcon className="w-4 h-4 ml-2" />
-              </p>
+              <Link to="work">
+                <p className="flex items-center text-indigo-600 cursor-pointer">
+                  What We've done{" "}
+                  <ArrowSmallRightIcon className="w-4 h-4 ml-2" />
+                </p>
+              </Link>
             </div>
           </div>
         </div>

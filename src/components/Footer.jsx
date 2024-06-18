@@ -1,14 +1,13 @@
 import React from 'react';
-
-import { FaFacebook, FaGithub, FaInstagram, FaTwitter, FaTwitch, FaGit } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaInstagram, FaTwitter, FaTwitch } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className='w-full mt-24 bg-slate-900 text-gray-300 py-8 px-2'>
+    <div className='w-full pt-24 mt-24 bg-slate-900 text-gray-300 py-8 px-2 rounded-tl-[150px] lg:rounded-tl-[400px]'>
         <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8'>
             {/* 1 */}
             <div>
-                <h6 className='font-bold uppercase pt-2'>Sollutions</h6>
+                <h6 className='font-bold uppercase pt-2'>Solutions</h6>
                 <ul>
                     <li className='py-1'>Marketing</li>
                     <li className='py-1'>Analytics</li>
@@ -70,10 +69,8 @@ const Footer = () => {
                 <FaGithub/>
             </div>
         </div>
-
-
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
