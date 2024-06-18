@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/Silky-Web-Design/static/css/main.cd50f862.css",
-    "main.js": "/Silky-Web-Design/static/js/main.26f72d41.js",
+    "main.css": "/Silky-Web-Design/static/css/main.47273e2e.css",
+    "main.js": "/Silky-Web-Design/static/js/main.c73ebe0f.js",
     "static/media/workImg1.png": "/Silky-Web-Design/static/media/workImg1.772edfda358330c9d9d8.png",
     "static/media/Banana.png": "/Silky-Web-Design/static/media/Banana.e7e0cf1a08a325e0c576.png",
     "static/media/summarizer.png": "/Silky-Web-Design/static/media/summarizer.42ef87ace6dc8605acf1.png",
     "static/media/threeShirt.png": "/Silky-Web-Design/static/media/threeShirt.740b7b8fbfd7cba24512.png",
     "static/media/bg.png": "/Silky-Web-Design/static/media/bg.2be4787b59d0a6455482.png",
     "static/media/spacetagram.png": "/Silky-Web-Design/static/media/spacetagram.46209711c88b377a408a.png",
+    "static/media/silky.png": "/Silky-Web-Design/static/media/silky.b23e53dd8ef1cac3f67e.png",
+    "static/media/DevsMind.png": "/Silky-Web-Design/static/media/DevsMind.f4cbfee7fcc5c77c4e72.png",
+    "static/media/BridgingTheCanyon.png": "/Silky-Web-Design/static/media/BridgingTheCanyon.f96cba254b9130f85248.png",
     "static/media/support.jpeg": "/Silky-Web-Design/static/media/support.13dffa5bdb3a671bcb5b.jpeg",
-    "static/media/workImg.jpeg": "/Silky-Web-Design/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "static/media/RebelStore.png": "/Silky-Web-Design/static/media/RebelStore.dabbffcaa2cbbb32d3cd.png",
+    "static/media/TaskBoard.png": "/Silky-Web-Design/static/media/TaskBoard.ce6d9e3b7ab331e434dc.png",
+    "static/media/WeatherDash.png": "/Silky-Web-Design/static/media/WeatherDash.1feb0d5863b9905a447e.png",
+    "static/media/MotionTracker.png": "/Silky-Web-Design/static/media/MotionTracker.c8bdcb5ae08c6a5af3f9.png",
+    "static/media/EmpTracker.png": "/Silky-Web-Design/static/media/EmpTracker.e9fb3904d49440854856.png",
     "index.html": "/Silky-Web-Design/index.html",
-    "main.cd50f862.css.map": "/Silky-Web-Design/static/css/main.cd50f862.css.map",
-    "main.26f72d41.js.map": "/Silky-Web-Design/static/js/main.26f72d41.js.map"
+    "main.47273e2e.css.map": "/Silky-Web-Design/static/css/main.47273e2e.css.map",
+    "main.c73ebe0f.js.map": "/Silky-Web-Design/static/js/main.c73ebe0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd50f862.css",
-    "static/js/main.26f72d41.js"
+    "static/css/main.47273e2e.css",
+    "static/js/main.c73ebe0f.js"
   ]
 }
