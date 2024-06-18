@@ -6,7 +6,6 @@ const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
 
     const toggleNav = () => setNavOpen(!navOpen);
-
     const closeNav = () => setNavOpen(false);
 
     return (
@@ -19,14 +18,13 @@ const Navbar = () => {
 
                 {/* Desktop Navigation */}
                 <ul className="hidden md:flex space-x-6 items-center cursor-pointer">
-                    <NavItem onClick={closeNav} to="home">Home</NavItem>
-                    <NavItem onClick={closeNav} to="about">About</NavItem>
-                    <NavItem onClick={closeNav} to="platform">Services</NavItem>
-                    <NavItem onClick={closeNav} to="pricing">Pricing</NavItem>
-                    <NavItem onClick={closeNav} to="contact">Contact</NavItem>
-                    <NavItem onClick={closeNav} to="work">Our Work</NavItem>
+                    {navLinks.map(link => (
+                        <NavItem key={link.to} onClick={closeNav} to={link.to}>
+                            {link.label}
+                        </NavItem>
+                    ))}
                     <li>
-                        <button className="skeuomorphic-button-blue px-8 py-3 text-white rounded-md">
+                        <button className="skeuomorphic-button-blue px-8 py-3 text-white rounded-md text-center">
                             <Link to="contact" smooth={true} offset={-200} duration={500}>Get In Touch</Link>
                         </button>
                     </li>
@@ -35,37 +33,46 @@ const Navbar = () => {
                 {/* Mobile Navigation Toggle */}
                 <div className="md:hidden">
                     <button onClick={toggleNav} aria-label="Toggle Navigation">
-                        {navOpen ? <XMarkIcon className="w-6 h-6 text-gray-900 bg-white" /> : <Bars3Icon className="w-6 h-6 text-gray-900" />}
+                        {navOpen ? <XMarkIcon className="w-6 h-6 text-gray-900" /> : <Bars3Icon className="w-6 h-6 text-gray-900" />}
                     </button>
                 </div>
             </div>
 
             {/* Mobile Navigation */}
-            <ul className={`md:hidden ${navOpen ? 'block' : 'hidden'} absolute top-full left-0 w-full bg-white border-t border-gray-200`}>
-                <NavItem onClick={closeNav} to="home" mobile>Home</NavItem>
-                <NavItem onClick={closeNav} to="about" mobile>About</NavItem>
-                <NavItem onClick={closeNav} to="platform" mobile>Services</NavItem>
-                <NavItem onClick={closeNav} to="pricing" mobile>Pricing</NavItem>
-                <NavItem onClick={closeNav} to="contact" mobile>Contact</NavItem>
-                <NavItem onClick={closeNav} to="work" mobile>Our Work</NavItem>
-                <li>
-                    <button className="block w-full text-left px-6 py-3 text-gray-900 rounded-md mt-1">
-                        <Link to="contact" smooth={true} offset={-200} duration={500}>Get In Touch</Link>
-                    </button>
-                </li>
-            </ul>
+            {navOpen && (
+                <ul className="md:hidden absolute top-full left-0 w-full bg-white border-t border-gray-200">
+                    {navLinks.map(link => (
+                        <NavItem key={link.to} onClick={closeNav} to={link.to} mobile>
+                            {link.label}
+                        </NavItem>
+                    ))}
+                    <li>
+                        <button className="skeuomorphic-button-blue block w-full px-6 py-3 text-gray-900 rounded-md mt-1 text-center">
+                            <Link to="contact" smooth={true} offset={-200} duration={500}>Get In Touch</Link>
+                        </button>
+                    </li>
+                </ul>
+            )}
         </nav>
     );
 };
 
+const navLinks = [
+    { label: 'Home', to: 'home' },
+    { label: 'About', to: 'about' },
+    { label: 'Services', to: 'platform' },
+    { label: 'Pricing', to: 'pricing' },
+    { label: 'Contact', to: 'contact' },
+    { label: 'Our Work', to: 'work' },
+];
+
 const NavItem = ({ onClick, to, mobile, children }) => (
-    <li className={`bg-light hover:animate-pulse hover:text-zinc-400 font-bold nav-text-gradient py-2 ${mobile ? 'border-b border-gray-200' : ''} ${mobile ? 'text-gray-900' : 'text-gray-700'}`}>
+    <li className={`hover:animate-pulse hover:text-zinc-400 font-bold nav-text-gradient py-2 ${mobile ? 'border-b border-gray-200' : ''} ${mobile ? 'text-gray-900' : 'text-gray-700'}`}>
         <Link onClick={onClick} to={to} smooth={true} duration={500} className="block px-6 w-full text-center">{children}</Link>
     </li>
 );
 
 export default Navbar;
-
 
 const skeuomorphicButtonBlueCSS = `
   .skeuomorphic-button-blue {

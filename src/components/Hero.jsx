@@ -13,7 +13,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className='md:w-1/2 mt-11 text-center md:text-left'
         >
-        <h1 className='py-3 text-5xl md:text-7xl font-bold text-gradient'>Unique Design & Development</h1>
+        <h1 className='py-3 text-4xl md:text-6xl font-bold text-gradient'>Unique Design & Development</h1>
         <p className='text-2xl cursive-text'>This is our silky smooth Tech brand.</p>
           <motion.button
             whileHover={{ scale: 1.05 }}
