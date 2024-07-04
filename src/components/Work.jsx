@@ -14,9 +14,16 @@ import devsMind from "../assets/DevsMind.png";
 import taskBoard from "../assets/TaskBoard.png";
 import weatherDash from "../assets/WeatherDash.png";
 import motionTracker from "../assets/MotionTracker.png";
+import nutrisprout from "../assets/nutrisprout.png";
 
 const Work = () => {
   const projects = [
+    {
+      title: "NutriSprout",
+      image: nutrisprout,
+      demoLink: "https://nutrisprout.onrender.com/",
+      codeLink: "#",
+    },
     {
       title: "Rebel Ecommerce",
       image: rebelStore,
