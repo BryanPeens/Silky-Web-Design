@@ -20,7 +20,7 @@ const InTouch = () => {
     formData.append("phone", phone);
     formData.append("message", message);
 
-    fetch("https://getform.io/f/1785a9e0-97b5-419f-aac8-bce32400c34b", {
+    fetch("https://getform.io/f/zbzkxdga", {
       method: "POST",
       body: formData,
     })
@@ -58,7 +58,7 @@ const InTouch = () => {
                 Get in touch
               </h2>
               <p className="text-gray-600 font-semibold">
-                Pop us an email - support@silky.com | Or give us a call
+                Pop us an email - silkysoftwaredesign@gmail.com | Or give us a call
                 +16132957781
               </p>
             </div>
