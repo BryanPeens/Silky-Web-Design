@@ -21,7 +21,7 @@ const Pricing = () => {
                     <div className='bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300'>
                         <div className='p-6'>
                             <span className='absolute top-0 left-0 mt-4 ml-4 uppercase px-3 py-1 bg-indigo-500 text-white rounded-full text-sm'>5 Pager</span>
-                            <p className='text-5xl font-bold text-gray-900 py-4'>R4500</p>
+                            <p className='text-5xl font-bold text-gray-900 py-4'>$280</p>
                             <p className='text-2xl text-gray-800 uppercase'>5 page responsive website.</p>
                             <div className='mt-6'>
                                 <div className='flex items-center py-2'>
@@ -59,7 +59,7 @@ const Pricing = () => {
                     <div className='bg-white rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition duration-300'>
                         <div className='p-6'>
                             <span className='absolute top-0 left-0 mt-4 ml-4 uppercase px-3 py-1 bg-indigo-500 text-white rounded-full text-sm'>10 Pager</span>
-                            <p className='text-5xl font-bold text-gray-900 py-4'>R7500</p>
+                            <p className='text-5xl font-bold text-gray-900 py-4'>$520</p>
                             <p className='text-2xl text-gray-800 uppercase'>10 page responsive website.</p>
                             <div className='mt-6'>
                                 <div className='flex items-center py-2'>
