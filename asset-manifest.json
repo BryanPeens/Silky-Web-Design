@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Silky-Web-Design/static/css/main.36adb045.css",
-    "main.js": "/Silky-Web-Design/static/js/main.e3d7b0c1.js",
+    "main.js": "/Silky-Web-Design/static/js/main.ea0f98a5.js",
     "static/media/workImg1.png": "/Silky-Web-Design/static/media/workImg1.772edfda358330c9d9d8.png",
     "static/media/Banana.png": "/Silky-Web-Design/static/media/Banana.e7e0cf1a08a325e0c576.png",
+    "static/media/nutrisprout.png": "/Silky-Web-Design/static/media/nutrisprout.7e083286902397081c80.png",
     "static/media/summarizer.png": "/Silky-Web-Design/static/media/summarizer.42ef87ace6dc8605acf1.png",
     "static/media/threeShirt.png": "/Silky-Web-Design/static/media/threeShirt.740b7b8fbfd7cba24512.png",
     "static/media/bg.png": "/Silky-Web-Design/static/media/bg.2be4787b59d0a6455482.png",
@@ -19,10 +20,10 @@
     "static/media/EmpTracker.png": "/Silky-Web-Design/static/media/EmpTracker.e9fb3904d49440854856.png",
     "index.html": "/Silky-Web-Design/index.html",
     "main.36adb045.css.map": "/Silky-Web-Design/static/css/main.36adb045.css.map",
-    "main.e3d7b0c1.js.map": "/Silky-Web-Design/static/js/main.e3d7b0c1.js.map"
+    "main.ea0f98a5.js.map": "/Silky-Web-Design/static/js/main.ea0f98a5.js.map"
   },
   "entrypoints": [
     "static/css/main.36adb045.css",
-    "static/js/main.e3d7b0c1.js"
+    "static/js/main.ea0f98a5.js"
   ]
 }
