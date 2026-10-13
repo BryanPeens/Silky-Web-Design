@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Silky-Web-Design/static/css/main.36adb045.css",
-    "main.js": "/Silky-Web-Design/static/js/main.ea0f98a5.js",
+    "main.css": "/Silky-Web-Design/static/css/main.7038ca10.css",
+    "main.js": "/Silky-Web-Design/static/js/main.6ae59290.js",
     "static/media/workImg1.png": "/Silky-Web-Design/static/media/workImg1.772edfda358330c9d9d8.png",
     "static/media/Banana.png": "/Silky-Web-Design/static/media/Banana.e7e0cf1a08a325e0c576.png",
     "static/media/nutrisprout.png": "/Silky-Web-Design/static/media/nutrisprout.7e083286902397081c80.png",
@@ -12,18 +12,17 @@
     "static/media/silky.png": "/Silky-Web-Design/static/media/silky.b23e53dd8ef1cac3f67e.png",
     "static/media/DevsMind.png": "/Silky-Web-Design/static/media/DevsMind.f4cbfee7fcc5c77c4e72.png",
     "static/media/BridgingTheCanyon.png": "/Silky-Web-Design/static/media/BridgingTheCanyon.f96cba254b9130f85248.png",
-    "static/media/support.jpeg": "/Silky-Web-Design/static/media/support.13dffa5bdb3a671bcb5b.jpeg",
     "static/media/RebelStore.png": "/Silky-Web-Design/static/media/RebelStore.dabbffcaa2cbbb32d3cd.png",
     "static/media/TaskBoard.png": "/Silky-Web-Design/static/media/TaskBoard.ce6d9e3b7ab331e434dc.png",
     "static/media/WeatherDash.png": "/Silky-Web-Design/static/media/WeatherDash.1feb0d5863b9905a447e.png",
     "static/media/MotionTracker.png": "/Silky-Web-Design/static/media/MotionTracker.c8bdcb5ae08c6a5af3f9.png",
     "static/media/EmpTracker.png": "/Silky-Web-Design/static/media/EmpTracker.e9fb3904d49440854856.png",
     "index.html": "/Silky-Web-Design/index.html",
-    "main.36adb045.css.map": "/Silky-Web-Design/static/css/main.36adb045.css.map",
-    "main.ea0f98a5.js.map": "/Silky-Web-Design/static/js/main.ea0f98a5.js.map"
+    "main.7038ca10.css.map": "/Silky-Web-Design/static/css/main.7038ca10.css.map",
+    "main.6ae59290.js.map": "/Silky-Web-Design/static/js/main.6ae59290.js.map"
   },
   "entrypoints": [
-    "static/css/main.36adb045.css",
-    "static/js/main.ea0f98a5.js"
+    "static/css/main.7038ca10.css",
+    "static/js/main.6ae59290.js"
   ]
 }
