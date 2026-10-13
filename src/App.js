@@ -9,16 +9,16 @@ import Work from './components/Work';
 
 function App() {
   return (
-    <>
+    <div className="site-shell">
       <Navbar/>
       <Hero/>
       <About/> 
       <AllInOne/>
       <Pricing/>
-      <Contact/>
       <Work/>
+      <Contact/>
       <Footer/>
-    </>
+    </div>
   );
 }
 
